@@ -1,16 +1,16 @@
-//const APIKEY = process.env.REACT_APP_RAPID_API_KEY;
+const APIKEY = process.env.REACT_APP_RAPID_API_KEY;
 export const exerciseOptions = {
   method: "GET",
   headers: {
     "X-RapidAPI-Host": "exercisedb.p.rapidapi.com",
-    "X-RapidAPI-Key": "JmI5iuJ4symshAC4Ykqp5Qq31i9ep13HginjsnhCVNnIZixOSb", //
+    "X-RapidAPI-Key": APIKEY, //
   },
 };
 
 export const youtubeOptions = {
   method: "GET",
   headers: {
-    "X-RapidAPI-Key": "JmI5iuJ4symshAC4Ykqp5Qq31i9ep13HginjsnhCVNnIZixOSb",
+    "X-RapidAPI-Key": APIKEY,
     "X-RapidAPI-Host": "youtube-search-and-download.p.rapidapi.com",
   },
 };
